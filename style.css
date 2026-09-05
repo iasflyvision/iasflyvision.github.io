@@ -102,6 +102,8 @@ section table + p { margin-top: 0.75rem; }
 
 .schedule td:not(:last-child) { padding-right: 1.5rem; }
 
+#seminars .schedule td:nth-child(2) { width: 19rem; }
+
 .schedule td:first-child {
   white-space: nowrap;
   color: var(--muted);
