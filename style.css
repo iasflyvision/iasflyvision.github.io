@@ -102,7 +102,12 @@ section table + p { margin-top: 0.75rem; }
 
 .schedule td:not(:last-child) { padding-right: 1.5rem; }
 
-#seminars .schedule td:nth-child(2) { width: 19rem; }
+#seminars .schedule td:nth-child(2) { width: 22rem; }
+
+.venue {
+  color: var(--muted);
+  font-style: italic;
+}
 
 .schedule td:first-child {
   white-space: nowrap;
