@@ -37,8 +37,9 @@ consent banner is needed, and it filters out bots automatically.
   `#seminars .schedule td:nth-child(2)`). No manual line breaks in titles.
 - **Abstract pages** live in `abstracts/`, reuse the site header and
   stylesheet, and link back to the main page.
-- **Local-only files**: the workshop flyer PDF in the repo root is untracked
-  via `.gitignore`. Reading PDFs in `assets/` are committed and public.
+- **Local-only files**: the workshop flyer PDF in the repo root and source
+  abstract documents (`abstracts/*.docx`) are untracked via `.gitignore`.
+  Reading PDFs in `assets/` are committed and public.
 - **Dates** use the "Sept. 4" style, consistent across both schedules.
 
 ## Crawler policy
